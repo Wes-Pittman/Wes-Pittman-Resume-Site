@@ -1,0 +1,10 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+    background-color: antiquewhite;
+}
+.header {
+    text-align: center;
+}
