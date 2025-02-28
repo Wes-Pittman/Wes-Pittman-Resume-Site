@@ -7,47 +7,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <h1> Wesley Pittman</h1>
-        <p> (540) 273-1497 | <a href="mailto:Wesley.a.Pittman@gmail.com">Wesley.a.Pittman@gmail.com</a></p>
-        <p><a href="https://linkedin.com/in/wes-pittman">LinkedIn</a> | <a href="https://github.com/Wes-Pittman">Github</a></p>
-        <hr>
+    <div class = "container">
+        <div class="header">
+            <h1> Wesley Pittman</h1>
+            <p> (540) 273-1497 | <a href="mailto:Wesley.a.Pittman@gmail.com">Wesley.a.Pittman@gmail.com</a></p>
+            <p><a href="https://linkedin.com/in/wes-pittman">LinkedIn</a> | <a href="https://github.com/Wes-Pittman">Github</a></p>
+            <hr>
+            <a href="Resume_Wes_Pittman.docx" download class="resume-button"> Download Resume Here</a>
+        </div>
+
+        <h2 onclick="toggleSection(this)">Technical Skills</h2>
+        <div class="section-content">
+            <ul>
+                <li><strong>Languages:</strong> Python, SQL, JavaScript, HTML, CSS</li>
+                <li><strong>Data & Cloud:</strong> Snowflake, Databricks, Google Drive API, AWS</li>
+                <li><strong>Automation & Tools:</strong> Git, API's, Automation Pipelines, Agile</li>
+            </ul>
+        </div>
+
+        <h2 onclick="toggleSection(this)">Professional Experience</h2>
+        <div class="section-content">
+            <p>Capital One – Analyst | Process Manager</p>				<p>Oct 2016 - Present</p>
+            <ul>	
+                <li>Designed and implemented automation pipelines using Python, JavaScript, and SQL to extract, transform, and load (ETL) data between Google Drive, Snowflake, and Databricks.</li>
+                <li>Developed Python-based scripts to ingest, clean, and transform large datasets, reducing manual processing time by 80%.</li>
+                <li>Built custom API integrations for data retrieval, modification, and automated publishing to Snowflake.</li>
+                <li>Created SQL-based data models for analysis, improving insights into financial risk and operational efficiencies.</li>
+                <li>Automated reporting workflows, streamlining business intelligence processes and improving executive decision-making.</li>
+                <li>Analyzed large-scale transaction data using SQL and statistical models to identify fraud patterns.</li>
+                <li>Built dashboard visualizations for tracking ATM fraud trends, improving risk mitigation strategies.</li>
+                <li>Developed data-driven reports that led to more effective loss prevention tactics.</li>
+            </ul>
+        </div>
+        <h2 onclick="toggleSection(this)">Military Experience</h2>
+        <div class="section-content">
+            <h2></h2>
+            <p>United States Air Force -Tactical Aircraft Maintainer</p>		<p>Sept 2009 - Oct 2013</p>
+            <ul>
+                <li>Maintained mission-critical aircrafts valued at $200M, ensuring operational efficiency and safety.</li>
+                <li>Conducted training for over 150 personnel on safety and security protocols.</li>
+            </ul>
+        </div>
+
+        <h2 onclick="toggleSection(this)">Education & Certification</h2>
+        <div class="section-content">
+            <ul>
+                <li>AWS Solutions Architect Associate</li>
+                <li>Google Data Analytics Certification</li>
+                <li>B.S. in Accounting, Indiana Wesleyan University</li>
+            </ul>
+        </div>    
     </div>
-    <div class="resume-main">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li><strong>Languages:</strong> Python, SQL, JavaScript, HTML, CSS</li>
-            <li><strong>Data & Cloud:</strong> Snowflake, Databricks, Google Drive API, AWS</li>
-            <li><strong>Automation & Tools:</strong> Git, API's, Automation Pipelines, Agile</li>
-        </ul>
 
-        <h2> Professional Experience</h2>
-
-        <p>Capital One – Analyst | Process Manager</p>				<p>Oct 2016 - Present</p>
-        <ul>	
-            <li>Designed and implemented automation pipelines using Python, JavaScript, and SQL to extract, transform, and load (ETL) data between Google Drive, Snowflake, and Databricks.</li>
-            <li>Developed Python-based scripts to ingest, clean, and transform large datasets, reducing manual processing time by 80%.</li>
-            <li>Built custom API integrations for data retrieval, modification, and automated publishing to Snowflake.</li>
-            <li>Created SQL-based data models for analysis, improving insights into financial risk and operational efficiencies.</li>
-            <li>Automated reporting workflows, streamlining business intelligence processes and improving executive decision-making.</li>
-            <li>Analyzed large-scale transaction data using SQL and statistical models to identify fraud patterns.</li>
-            <li>Built dashboard visualizations for tracking ATM fraud trends, improving risk mitigation strategies.</li>
-            <li>Developed data-driven reports that led to more effective loss prevention tactics.</li>
-</ul>
-<h2>MILITARY EXPERIENCE</h2>
-<p>United States Air Force -Tactical Aircraft Maintainer</p>		<p>Sept 2009 - Oct 2013</p>
-<ul>
-    <li>Maintained mission-critical aircrafts valued at $200M, ensuring operational efficiency and safety.</li>
-    <li>Conducted training for over 150 personnel on safety and security protocols.</li>
-</ul>
-	
-
-<h2>EDUCATION & CERTIFICATIONS</h2>
-<ul>
-    <li>AWS Solutions Architect Associate</li>
-    <li>Google Data Analytics Certification</li>
-    <li>B.S. in Accounting, Indiana Wesleyan University</li>
-</ul>
-    </div>    
+    <script src="script.js"></script>
 </body>
 </html>
